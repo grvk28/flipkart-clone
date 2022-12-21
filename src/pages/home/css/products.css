@@ -1,0 +1,24 @@
+.dada{
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+}
+
+.dad{
+    display: flex;
+    flex-direction: column;
+}
+
+.real{
+    width:100%;
+    min-height: 100px;
+    background-color: blueviolet;
+}
+
+.chacha{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}

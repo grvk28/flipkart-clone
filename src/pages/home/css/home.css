@@ -1,0 +1,231 @@
+.st{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(190, 223, 235, 0.24);
+}
+
+.sell{
+    text-decoration: none;
+    color:white;
+    height:55px;
+    display: flex;
+    align-items: center;
+}
+
+.sell1{
+    text-decoration: none;
+    color:white;
+    height:55px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav1{
+    min-height: 60px;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10%;
+    width:30%;
+    margin-left: -4%;
+}
+
+.nav11{
+    text-decoration: none;
+    color:white;
+    font-size: small;
+    margin-top:-30%;
+    gap:0%;
+    font-weight: lighter;
+}
+
+.img1{
+    height: 50%;
+    width: 50%;
+}
+
+.nav10{
+    display:flex;
+    flex-direction: column;
+    gap:50%;
+    margin-top:-30%;
+    font-style: italic;
+}
+
+.btn{
+    padding: 0.5%;
+    background-color: white;
+    color:rgb(35, 207, 207) ;
+    width:8%;
+    border-color: white;
+    text-decoration: none;
+}
+
+.input1{
+    padding: 0.1%;
+}
+
+.type{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height:100px;
+    gap: 1.5%;
+    text-decoration: none;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+@media(max-width:460px){
+    .type{
+        background-color:red;
+    }
+}
+
+
+
+.slides{
+    background-color: blanchedalmond;
+    min-height: 320px;
+    width: 97%;
+    margin-top: 10px;
+}
+
+.body{
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.151);
+    
+}
+
+.footer{
+    min-height: 200px;
+    background-color: black;
+}
+
+.Nav{
+    min-height: 55px;
+    background-color: rgb(55, 42, 236);
+    min-width:100%;
+    color:white;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1.5%;
+    top:0%;
+    flex-wrap: wrap;
+    z-index: 0;
+    position: sticky;
+    font-weight: bold;
+}
+
+.hon{
+    display:none;
+}
+
+.btn11{
+    height:100%;
+    width:100%;
+    color: rgb(55, 42, 236);
+    flex-wrap: wrap;
+}
+
+.btn:hover .hon{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    color:red;
+    z-index: 1;
+    margin-top: 7px;
+    overflow: hidden;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2%;
+}
+
+.hon-c{
+    text-decoration: none;
+    padding: 10%;
+    width:100%;
+}
+
+.hon-a{
+    background-color: rgb(55, 42, 236);
+    height:14px;
+    margin-top: 0px;
+    width: 100%;
+    padding: 0%;
+}
+
+.more1{
+    display:none;
+}
+
+.sell1:hover .more1{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    color:red;
+    z-index: 1;
+    margin-top: 7px;
+    overflow: hidden;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -4%;
+    width:10%;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    color:black;
+}
+
+.hon-d{
+    text-decoration: none;
+    padding: 10%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-left: -50%;
+}
+
+.hon-c:hover {
+    background-color: antiquewhite;
+}
+
+.img-ad1{
+    width: 100%;
+    min-height: 150px;
+}
+
+.ads{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    min-width: 100%;
+    gap:0%;
+    justify-content: left;
+    align-items: center;
+}
+
+.ads1{
+   width: 95%;
+}
+
+.links{
+    flex-wrap: wrap;
+    background-color: white;
+    color: rgb(145, 141, 141);
+    padding: 2%;
+}
